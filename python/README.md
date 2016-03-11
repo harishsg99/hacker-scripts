@@ -2,7 +2,11 @@
 
 ### gpms.py
 
-Script to exploit the HotLinking vulnerability in the college intranet. If you can read it and if you have used GPMS, editing it will be a piece of cake.
+Script to apply gate pass from Terminal. 
+
+*To-Do*
+
+* No hard-coding son. Pass values.
 
 ### student_vuln.py
 
