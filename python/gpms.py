@@ -12,13 +12,12 @@ headmeta = {
 'Accept-Encoding' : 'gzip, deflate',
 'Accept-Language' : 'en-GB,en-US;q=0.8,en;q=0.6',
 }
-def login() :
-	t_login={}
-	t_login['userid']=raw_input("Enter Roll Number : ")
-	t_login['passwd']=raw_input("Enter Password : ")
-	t_login['submit']=''
-	loginf=json.dumps(t_login)
-	return loginf
+
+login = {
+	'userid' : 'roll_no_here',
+	'passwd' : 'password_here',
+	'submit' : '',     # Don't edit
+	}
 
 
 payloader = {
