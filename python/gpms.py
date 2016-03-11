@@ -36,14 +36,14 @@ payloader = {
 }
 
 payload2 = {
-'regno' : 'CB.EN.U4CSE14240',
-'stname' : 'Sachin S Kamath',
+'regno' : 'Roll Number here',     #ROLL
+'stname' : 'Name here',
 'applyingto':'Warden',
 'passtype' : 'Day Pass',
 'occasion':'Regular Academic Semester',
 'groundsforleave':'going to city',
-'fromdate': '07 Mar 2016 7:00:00',
-'todate': '07 Mar 2016 19:00:00',
+'fromdate': '07 Mar 2016 7:00:00', #Sigh, Date    
+'todate': '07 Mar 2016 19:00:00',  #sigh x2, Date
 'noofdays':'1',
 'confirm':'Confirm',
 }
