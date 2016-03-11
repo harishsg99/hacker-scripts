@@ -1,0 +1,18 @@
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+
+driver = webdriver.Firefox()
+
+
+driver.get("http://google.com")
+assert "Sonic" in driver.title
+
+user = driver.find_element_by_name("userName")
+passwd = driver.find_element_by_name("pwd")
+
+user.send_keys("CSE14240")
+passwd.send_keys("zerocool")
+
+passwd.send_keys(Keys.RETURN)
+
+driver.close()
