@@ -21,8 +21,8 @@ def main() :
 	passwd = driver.find_element_by_name("pwd")
 
 	print "\n\n[*] Sending Credentials .. "
-	user.send_keys("CSE14240")
-	passwd.send_keys("zerocool")
+	user.send_keys("<user_name_here>")
+	passwd.send_keys("<password_here>")
 	passwd.send_keys(Keys.RETURN)
 
 	driver.get("http://www.msftncsi.com/ncsi.txt")
