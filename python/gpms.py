@@ -21,8 +21,8 @@ login = {
 
 
 payloader = {
-'stregno' : 'CB.EN.U4CSE14240',
-'stname' : 'Sachin S Kamath', 
+'stregno' : 'CB.EN.U4CSE16307',
+'stname' : 'Akash Ravi', 
 'sthostel' : 'VB',
 'passtaken' : '',
 'passtype' : 'Day Pass',
