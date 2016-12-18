@@ -4,9 +4,10 @@
 # Crawl baby Crawl. Script to crawl ID card images from GPMS.
 # Works in Amrita Intranet Only
 # This script will until they block hotlinking ;)
+# for CSE D
 
 USERNUM=01
-USERPREFIX='http://gpms.amritanet.edu/gpis/photos/U4CSE14/U4CSE142'
+USERPREFIX='http://gpms.amritanet.edu/gpis/photos/U4CSE16/U4CSE163'
 USERSUFFIX='.png'
 FOLDER="leaked"
 mkdir $FOLDER
